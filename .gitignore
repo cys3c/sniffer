@@ -1,5 +1,11 @@
+# Clang Executables
 
-# Created by https://www.gitignore.io/api/c,osx,linux,macos,windows,eclipse,intellij,sublimetext
+cookie_parser
+email_parser
+packet_parser
+tcp_parser
+
+# Created by https://www.gitignore.io/api/c,osx,linux,macos,windows,eclipse,intellij,sublimetext,executable
 
 ### C ###
 # Prerequisites
@@ -113,6 +119,16 @@ local.properties
 
 # JDT-specific (Eclipse Java Development Tools)		
 .classpath
+
+### Executable ###
+*.bat
+*.cgi
+*.com
+*.gadget
+*.jar
+*.pif
+*.vb
+*.wsf
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
@@ -281,4 +297,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/c,osx,linux,macos,windows,eclipse,intellij,sublimetext
+# End of https://www.gitignore.io/api/c,osx,linux,macos,windows,eclipse,intellij,sublimetext,executable
