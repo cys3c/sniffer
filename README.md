@@ -1,6 +1,6 @@
 # Sniffer (Packet Trace Parser)
 
-# Overview
+## Overview
 Sniffer is a C program that parses and interprets captured Ethernet traffic containing IP datagrams (UDP/TCP), and stores the captured payloads, email messages and HTTP cookies sent into files.
 
 ## General
