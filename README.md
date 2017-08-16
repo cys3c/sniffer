@@ -1,7 +1,10 @@
 # Sniffer (Packet Trace Parser)
 
+# Overview
+Sniffer is a C program that parses and interprets captured Ethernet traffic containing IP datagrams (UDP/TCP), and stores the captured payloads, email messages and HTTP cookies sent into files.
+
 ## General
-Supply any pcap file, produced by tcpdump, that contains a packet trace for the program to use as input: ./parser [pcap_file]
+Supply any pcap file, produced by tcpdump, that contains a packet trace for the program to use as input: ./selected_parser [pcap_file]
 
 ## Packet parser
 Parses each packet in the file provided on standard input and displays basic header information on standard output:
@@ -13,7 +16,6 @@ Parses each packet in the file provided on standard input and displays basic hea
 
 Prints the total number of packets processed and the numbers
 of TCP, UDP and non-TCP/UDP packets.
-
 
 ## TCP parser
 Program records each TCP connection into into files that represent the data sent and received on each side of the connection.
